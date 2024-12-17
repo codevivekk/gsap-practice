@@ -13,11 +13,6 @@ const GsapTo = () => {
       yoyoEase: true,
       rotate: 360,
       duration: 2,
-      // motionPath: {
-      //   path: "M150,150 a100,100 0 1,1 1,0", // Defines a circular path
-      //   align: "self", // Aligns the element to the path
-      //   autoRotate: false, // Prevents rotation along the path
-      // },
     });
   }, []);
   return (

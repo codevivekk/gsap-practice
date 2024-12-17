@@ -17,6 +17,7 @@ const GsapScrollTrigger = () => {
         rotation: 360,
         borderRadius: "100%",
         scale: 1.5,
+        backgroundColor: ["#ff0000", "#00ff00", "#0000ff", "#ff00ff"],
         scrollTrigger: {
           trigger: box,
           start: "bottom bottom",

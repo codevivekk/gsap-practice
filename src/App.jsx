@@ -11,6 +11,9 @@ import {
   Home,
 } from "./pages";
 import TextFadeIn from "./pages/TextFadeIn";
+import BouncingBall from "./pages/BouncingBall";
+import ImageSlider from "./pages/ImageSlider";
+import LoaderSpiner from "./pages/LoaderSpiner";
 
 const App = () => {
   return (
@@ -26,6 +29,9 @@ const App = () => {
           <Route path="/gsaptext" element={<GsapText />} />
           <Route path="/textfadein" element={<TextFadeIn />} />
           <Route path="/" element={<Home />} />
+          <Route path="/bouncing-ball" element={<BouncingBall />} />
+          <Route path="/image-slider" element={<ImageSlider />} />
+          <Route path="/loader-spinner" element={<LoaderSpiner />} />
         </Routes>
       </Router>
     </div>

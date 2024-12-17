@@ -1,6 +1,25 @@
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+import MotionPathPlugin from "gsap/MotionPathPlugin";
+
+gsap.registerPlugin(MotionPathPlugin);
+
 const GsapTo = () => {
   // TODO: Implement the gsap.to() method
-
+  useGSAP(() => {
+    gsap.to("#blue-box", {
+      x: 500,
+      repeat: -1,
+      yoyoEase: true,
+      rotate: 360,
+      duration: 2,
+      // motionPath: {
+      //   path: "M150,150 a100,100 0 1,1 1,0", // Defines a circular path
+      //   align: "self", // Aligns the element to the path
+      //   autoRotate: false, // Prevents rotation along the path
+      // },
+    });
+  }, []);
   return (
     <main>
       <h1>GsapTo</h1>

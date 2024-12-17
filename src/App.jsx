@@ -10,6 +10,7 @@ import {
   GsapTo,
   Home,
 } from "./pages";
+import TextFadeIn from "./pages/TextFadeIn";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
           <Route path="/gsapstagger" element={<GsapStagger />} />
           <Route path="/gsapscrolltrigger" element={<GsapScrollTrigger />} />
           <Route path="/gsaptext" element={<GsapText />} />
+          <Route path="/textfadein" element={<TextFadeIn />} />
           <Route path="/" element={<Home />} />
         </Routes>
       </Router>

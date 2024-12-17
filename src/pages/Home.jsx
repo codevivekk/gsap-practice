@@ -42,6 +42,11 @@ const animations = [
     description: "Learn how to animate text with GSAP.",
     path: "/gsaptext",
   },
+  {
+    title: "Text Fade-In Animation",
+    description: "Animate text to fade in one word or letter at a time on page load.",
+    path: "/textfadein",
+  },
 ];
 
 const Home = () => {

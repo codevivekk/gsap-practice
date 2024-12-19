@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { animations } from "../constant";
+import { paths } from "../constant";
 
 
 
@@ -9,7 +9,7 @@ const Home = () => {
       <div className="flex flex-col">
         <h1 className="text-3xl font-bold text-zinc-50">GSAP Animations</h1>
         <ol className="flex flex-col mt-10">
-          {animations.map((animation, index) => (
+          {paths.map((animation, index) => (
             <li
               key={index}
               className="flex flex-row gap-2 p-5 hover:bg-zinc-800/50 rounded-lg"
